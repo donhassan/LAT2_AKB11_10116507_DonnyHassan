@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#40B4E7"
+    android:orientation="vertical"
+    tools:context=".AlmostThereActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="170dp"
+            android:text="@string/almost_there"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:textSize="35sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:textSize="13sp"
+            android:textColor="#FFFFFF"
+            android:text="@string/thank_you"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_verifyalmostthere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:text="@string/verify"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/custombutton1"/>
+    </LinearLayout>
+
+</LinearLayout>
